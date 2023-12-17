@@ -1,0 +1,49 @@
+
+header {
+    height: 50px;
+    padding: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #a974bd;
+    
+}
+
+.name {
+  
+}
+
+.nav {
+    font-family: serif;
+    font-size: 40px;
+}
+
+.portfolio {
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* align-items: flex-endj; */
+    
+}
+
+.about {
+    display: flex;
+    
+}
+
+.contact {
+    display: flex;
+}
+
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 180px;
+    height: 120px;
+    border: 5px solid yellow;
+    background: #a974bd;
+    margin: 10px;
+}
