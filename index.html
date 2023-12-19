@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Title TBDß</title>
+    <title>Warren C. Lathe III (Trey)</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -12,44 +12,178 @@
 
 
 <header>
-    <name>Warren C. Lathe III (Trey)</name>
+   <img src="./assets/images/mephoto.jpg" height="60" width="100"/>
+   <name>Warren C. Lathe III (Trey)</name>
     <nav>
-        <a href="#">Portfolio</a>
-        <a href="#">About Me</a>
-        <a href="#">Contact Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </nav>
-
 </header>
 
 <main>
+    <!-- each project will link to the actual project or more description -->
+    <A name="portfolio"></A><h2>Portfolio</h2>
 
     <section class="portfolio">
-        <div>This is a box</div>
-        <div>This is a box</div>
-        <div>This is a box</div>
-        <div>This is a box</div>
-        <div>This is a box</div>
-        <div>This is a box</div>
+        <card class="card">
+            <div class= "body-card">
+                <a href="#"><img src="./assets/images/project.jpeg"/></a>
+                A web applicationthat relates one recipe to another by traits like they evolved or something</div>
+                <div class="card-header">Recipe Evolution</div>
+        </card>
+
     </section>
+    
+    <section class="portfolio">
+        <card class="card">
+            <div class= "body-card">
+                <img src="./assets/images/project.jpeg"/> This project is so cool
+            </div>
+                <div class="card-header">Project 1</div>
+           
+        </card>
+        <card class="card">
+            <div class= "body-card">
+                <img src="./assets/images/project.jpeg"/>
+                this project will knock your socks off </div>
+            <div class="card-header">Project 2</div>
+        </card>
+        <card class="card">
+            <div class= "body-card">
+                <img src="./assets/images/project.jpeg"/>
+                Prepare to have your mind blown</div>
+            <div class="card-header">Project 3</div>
+        </card>
+        <card class="card">
+            <div class= "body-card">
+                <img src="./assets/images/project.jpeg"/>
+                it will be difficult to contain your excitement</div>
+            <div class="card-header">Project 4</div>
+        </card>
+        <card class="card">
+            <div class= "body-card">
+                <img src="./assets/images/project.jpeg"/>
+                this project couldn't be any better</div>
+            <div class="card-header">Project 5</div>
+        </card>
+        <card class="card" >
+            <div class= "body-card">
+                <img src="./assets/images/project.jpeg"/>
+                a unicorn project</div>
+            <div class="card-header">Project 6</div>
+        </card>
+    </section>
+
+    <!-- Each about item will hover more inforation about it, 
+        for example, NSF in Jobs will have more informaion on that job in hover
+     -->
+    <A name="about"></A><h2>About Me</h2>
+    <section class="about">
+
+        <card class="card">
+            <div class= "body-card">
+                        <ul>
+                            <li>Zoology, BYU</li>
+                            <li>MS Molecular Biology, UR</li>
+                            <li>PhD Molecular Biology, UR</li>
+                            <li>Coding, UCB</li></lk>
+                        </ul>
+            </div>
+            <div class="card-header">Education</div>
+        </card>
+        <card class="card">
+            <div class= "body-card">
+                <ul>
+                    <li>EMBL</li>
+                    <li>OpenHelix</li>
+                    <li>NSF</li>
+                    <li>US House</li>
+                </ul>
+            </div>
+            <div class="card-header">Clients & Jobs</div>
+        </card><card class="card">
+            <div class= "body-card">
+                <ul>
+                    <li>Trilingual</li>
+                    <li>Programming</li>
+                    <li>etc</li>
+                </ul>
+            </div>
+            <div class="card-header">Other Skills & More</div>
+        </card>
+      
+    </section>
+    <A name="contact"></A><h2>Contact Me</h2>
 
     <section class="about">
-        <div class="card">This is a box</div>
-        <div class="card">this is a box</div>
-        <div class="card">this is a box</div>
-        <div class="card">this is a box</div>
-        <div class="card">this is a box</div>
-        <div class="card">this is a box</div>
+        <card class="card">
+            <div class= "body-card"><a href="mailto: trey@latheconsulting.com">Email Me</a> </div>
+            <div class="card-header">Email</div>
+        </card>
+        <card class="card">
+            <div class= "body-card"><a href="https://github.com/TreyLathe">TreyLathe</a></div>
+            <div class="card-header">GitHub</div>
+        </card><card class="card">
+            <div class= "body-card"><a href="https://www.linkedin.com/in/wclathe/">wclathe</a></div>
+            <div class="card-header">LinkedIn</div>
+        </card>
+
     </section>
 
-    <section class="contact">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
 
-    </main>
+    <!-- </main> -->
 
-<footer></footer>
+<footer>
+   
+</footer>
     
 </body>
+
+
+// <!-- below is grabbed text to learn from/add to here -->
+// <!-- /* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
+// card {
+//   flex: 1 0 100%;
+//   padding: 1.5rem;
+//   /* when the screen resizes, make it so our columns don't jump in size */
+//   transition: flex-basis 500ms linear;
+//   margin-bottom: 1.5rem;
+// }
+
+// /* make each code card a flexbox column to align and justify content within it */
+// .code-card {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   min-height: 100%;
+//   padding: 2rem;
+//   color: var(--heliotrope);
+
+//   /* outline is like border, but on the outside of the box instead of inside */
+//   outline: 2px dashed var(--gin);
+//   outline-offset: -2px;
+//   transition: all 0.5s ease-in-out;
+// }
+
+// .code-card .card-header {
+//   /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
+//   position: relative;
+//   margin: -4rem 0 1.5rem 0;
+//   padding: 0.5rem 1rem;
+//   background-color: var(--outer-space);
+//   color: var(--heliotrope);
+//   border: 2px solid var(--gin);
+//   border-radius: 8px;
+//   transition: all 0.5s ease-in-out;
+// }
+
+// /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
+// .code-card:hover,
+// .code-card:hover .card-header {
+//   box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+// }
+
+// /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
+// .code-card .code-block {
+//   flex-grow: 1;
