@@ -1,10 +1,24 @@
 # mod-2-challenge
 
-
+CHALLENGE GOAL:
 This is the submission for the Portfolio challenge (challenge 2) for the full stack coding bootcamp (December 11, 2023-March 13, 2024). 
 
 The goal of the challenge is to create and deploy a portfolio of work samples with an about section and contact info for potential employers ot assess work. 
 
+
+RESOURCES USED:
+*Class instruction and office hours
+*Pertinent MDN and W3 sections
+
+RELEVANT LINKS:
+Repository: https://github.com/TreyLathe/mod-2-challenge
+Deployed Site: https://treylathe.github.io/mod-2-challenge/
+
+SCREENSHOTS:
+![Top half of Portfolio](assets/images/portfolioTop.png)
+![Bottom half of Portfolio](assets/images/portfolioBottom.png)
+
+COMMENTS:
 Work done to fit the acceptance criteria:
 
 WHEN I load their portfolio
@@ -30,7 +44,7 @@ THEN that application's image should be larger in size than the others
 WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 
-<!-- **Currently, active links are included (that don't go to any deployed application because there are none) -->
+<!-- **Currently, first application links to Password Generator created later. ) -->
 
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
